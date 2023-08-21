@@ -2,6 +2,7 @@
 *Proyecto de Barbería – Instalación para el uso Local*
 Este documento proporciona los pasos necesarios para instalar el proyecto de la barbería en tu entorno local utilizando XAMPP y Git. El proyecto está desarrollado en Ext JS 3.4 y HTML, con servicios AJAX para la comunicación.
 Requisitos previos
+Video guia : https://youtu.be/CCJM1zUBAYo
 Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
 •	XAMPP: para el servidor web y PHP.
 •	Git: para clonar el repositorio.
