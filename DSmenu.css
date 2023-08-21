@@ -1,0 +1,38 @@
+#menudsh {
+        font: 90% "Trebuchet MS", Arial, Helvetica, sans-serif;
+        margin-top: 26px;        
+}
+
+#menudsh ul, li {
+        list-style-type: none;
+}
+
+#menudsh ul {        
+        margin:0;
+        padding:0;	        
+}
+
+#menudsh li {
+        float: right;        
+}
+
+#menudsh a {
+          text-decoration: none;
+        color: #ccc;
+        background: #3f4757;
+        display: block;
+        padding: 3px 10px;
+        text-align: center;
+        border: 1px solid #ACCFE8;
+        border-width: 1px 1px 1px 1px;
+}
+
+
+#menudsh a#primero {
+        border-left: 1px solid #ACCFE8;
+}
+
+#menudsh a:hover {
+        background: #DBEBF6;
+		color: black;
+}
