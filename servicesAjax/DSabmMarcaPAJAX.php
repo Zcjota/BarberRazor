@@ -10,6 +10,9 @@
 		exit;
 	}
 
+
+
+	
 	$conex = ConectarConBD();
 	switch ($op) {
 		case "0": {

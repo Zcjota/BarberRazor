@@ -20,6 +20,9 @@ Ext.onReady(function () {
 		}
 	});
 
+
+
+	
 	var pagingMarcaPBar = new Ext.PagingToolbar({
 		pageSize: 100,
 		store: Ext.dsdata.storeMarcaP,
