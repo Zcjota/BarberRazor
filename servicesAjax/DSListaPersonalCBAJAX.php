@@ -1,7 +1,7 @@
 <?php     
 /*!
- * RAZOR
- * Copyright(c) 2023
+ * DSoft-TPMV
+ * Copyright(c) 2011
  */
 	include("../lib/conex.php");        	
 	

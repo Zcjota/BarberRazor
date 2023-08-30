@@ -6,14 +6,14 @@
 // iso-8859-1
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Listado Usuario</title>
 	<link rel="stylesheet" type="text/css" href="../ext/resources/css/ext-all.css" />
 	<link rel="stylesheet" type="text/css" href="../ext/resources/css/xtheme-gray.css" />
- 
+
     <!-- GC -->
  	<!-- LIBS -->
  	<script type="text/javascript" src="../ext/adapter/ext/ext-base.js"></script>

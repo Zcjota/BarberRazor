@@ -29,7 +29,7 @@
 				break;
 			}
 	}
-	//mysqli_query($conex, "SET NAMES 'utf8', time_zone = 'America/La_Paz' ");
+	/// agregado jr
 	if ($resultado = mysqli_query($conex, $sql)) {
 		$pp = mysqli_affected_rows($conex);
 		if ($pp > 0) {
