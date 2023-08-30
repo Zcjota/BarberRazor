@@ -24,7 +24,7 @@
 
 	$conex = ConectarConBD();
 	
-	//mysqli_query($conex, "SET NAMES 'utf8', time_zone = 'America/La_Paz' ");
+	/// agregado jr
 	$sql='';
 	switch($op){
 		case '0':

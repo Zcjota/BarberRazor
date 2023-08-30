@@ -92,9 +92,10 @@ var btnLimpiar_pu = new Ext.Button({
 	handler:function(){
 		IniCompPermisoU();
 		winPermisoUsuario.hide();
-		window.location.reload();
-		codperfil.setValue = 0;
-		txtCodPerfil.setValue('');
+		//Agregado Jr
+		window.location.reload(); //1
+		codperfil.setValue = 0;  //2
+		txtCodPerfil.setValue(''); //3
 	} 
 });
 
@@ -125,9 +126,10 @@ var frmPermiso = new Ext.FormPanel({
 				waitMsg: 'Enviando Datos...',
 				success: function (form, action) {
 					winPermisoUsuario.hide();
-					window.location.reload();
-					codperfil.setValue = 0;
-					txtCodPerfil.setValue('');
+					//Agregado jr
+					window.location.reload(); //1
+					codperfil.setValue = 0;  //2 
+					txtCodPerfil.setValue(''); //3
 
 				},
 				failure: function (form, action) {
@@ -172,7 +174,7 @@ function PermisoUsuario(Codigov) {
 					
 				},
 				hide: function () {
-					// Recarga la página al cerrar la ventana
+					// Recarga la página al cerrar la ventana Agregado jr
 					window.location.reload();
 				}
 			}
