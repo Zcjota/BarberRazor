@@ -2,6 +2,8 @@
  * RAZOR- DEV
  * 2023
  */
+
+
 Ext.onReady(function () {
 	Ext.namespace('Ext.dsdata');
 	var indice = 'e';

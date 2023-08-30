@@ -16,6 +16,10 @@
 		exit;
 	}
 	
+
+
+
+	
 	// ///////////////////////DATOS RECIBO
 	$codpropietario = isset($_POST['cbpropietario']) ? $_POST['cbpropietario'] : 0;
 	$cliente = isset($_POST['cliente']) ? $_POST['cliente'] : 0;
