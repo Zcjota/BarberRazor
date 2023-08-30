@@ -23,6 +23,8 @@ Ext.onReady(function () {
 		}
 	});
 
+
+	
 	var pagingProductoBar = new Ext.PagingToolbar({
 		pageSize: 1000,
 		store: Ext.dsdata.storeProducto,

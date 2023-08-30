@@ -21,6 +21,8 @@
 		exit;
 	}
 
+
+	
 	$conex = ConectarConBD();
 	/// agregado jr
 	foreach ($records as $record) {
