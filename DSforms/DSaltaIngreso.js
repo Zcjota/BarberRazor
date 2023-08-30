@@ -1524,13 +1524,26 @@ function sumatoria() {
 	calculoPago();
 };
 
+// function calculoPago() {
+// 	var montoD = Ext.getCmp('montoSTD').getValue();
+// 	var montoB = Ext.getCmp('montoSTB').getValue();
+// 	var tpago = (parseFloat(montoD == '' ? 0 : montoD) * pc) + parseFloat(montoB == '' ? 0 : montoB);
+// 	var tcambio = tpago - parseFloat(Ext.getCmp('totalST').getValue());
+// 	Ext.getCmp('pagoST').setValue(Ext.util.Format.number(tpago, '0.00'));
+// 	Ext.getCmp('cambioST').setValue(Ext.util.Format.number(tcambio, '0.00'));
+// };
 function calculoPago() {
-	var montoD = Ext.getCmp('montoSTD').getValue();
-	var montoB = Ext.getCmp('montoSTB').getValue();
-	var tpago = (parseFloat(montoD == '' ? 0 : montoD) * pc) + parseFloat(montoB == '' ? 0 : montoB);
-	var tcambio = tpago - parseFloat(Ext.getCmp('totalST').getValue());
-	Ext.getCmp('pagoST').setValue(Ext.util.Format.number(tpago, '0.00'));
-	Ext.getCmp('cambioST').setValue(Ext.util.Format.number(tcambio, '0.00'));
+    var montoD = Ext.getCmp('montoSTD').getValue();
+    var montoB = Ext.getCmp('montoSTB').getValue();
+    var tpago = (parseFloat(montoD == '' ? 0 : montoD) * pc) + parseFloat(montoB == '' ? 0 : montoB);
+    var tcambio = 0; // Inicialmente establecemos el cambio en 0
+
+    if (tpago > 0) {
+        tcambio = tpago - parseFloat(Ext.getCmp('totalST').getValue());
+    }
+
+    Ext.getCmp('pagoST').setValue(Ext.util.Format.number(tpago, '0.00'));
+    Ext.getCmp('cambioST').setValue(Ext.util.Format.number(tcambio, '0.00'));
 };
 
 function ValidarGridServicio() {

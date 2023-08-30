@@ -1,11 +1,12 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<title>Listado Marca Producto</title>		
 		
-	<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QtH2J0w1btIVkrWO2znio0BBrVUS2WeAm6g--pjeFkXVWJD_UMn5ynnME6Ghvhjw1sZZYhH_Jp75f4AGCeqyqPQNoR5UseVV6bqXg-Ap92wswYH4m3YSqTZHaRmk9On7" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93d3cuZXF1YW50YS1hdWRpdG9yZXMuY29tL1NPTE9FTF9UMjMvRFNsaXN0cy9EU0xpc3RhZG9NYXJjYVAucGhw"/><div id="DSinicio" class="divcentro">
+	<!-- <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QtH2J0w1btIVkrWO2znio0BBrVUS2WeAm6g--pjeFkXVWJD_UMn5ynnME6Ghvhjw1sZZYhH_Jp75f4AGCeqyqPQNoR5UseVV6bqXg-Ap92wswYH4m3YSqTZHaRmk9On7" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93d3cuZXF1YW50YS1hdWRpdG9yZXMuY29tL1NPTE9FTF9UMjMvRFNsaXN0cy9EU0xpc3RhZG9NYXJjYVAucGhw"/> -->
+	<div id="DSinicio" class="divcentro">
   	<div align="center"><img src="../img/al.gif"/><br/></div>  	
   </div>	
 	<link rel="stylesheet" type="text/css" href="../ext/resources/css/ext-all.css" />

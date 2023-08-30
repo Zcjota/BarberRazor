@@ -148,11 +148,11 @@ Ext.onReady(function () {
 				text: '<a style ="color:#000000; font: bold 11px tahoma,arial,verdana,sans-serif;">Nuevo</a>',
 				icon: '../img/Nuevo.png',
 				handler: function (t) {
-					opp = 1;
-                    op_NS = 0;
-                    cod_up_NS_global = 1;
-                    Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
-					//NuevoPersonal();
+					// opp = 1;
+                    // op_NS = 0;
+                    // cod_up_NS_global = 1;
+                    // Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
+					NuevoPersonal();
 
 				}
 			},
@@ -164,18 +164,18 @@ Ext.onReady(function () {
 				text: '<a style ="color:#000000; font: bold 11px tahoma,arial,verdana,sans-serif;">Modificar</a>',
 				icon: '../img/Editar.png',
 				handler: function (t) {
-					if(indice != 'e'){
-                        opp = 2;
-                        op_NS = 0;
-                        cod_up_NS_global = 1;
-                        Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
-                    }
-                    else{
-                        Ext.MessageBox.alert('Alerta de Mensaje.','Seleccione un Registro.');
-                    }
-					// console.log(Ext.dsdata.storePersonal.getAt(indice).get('codsistema'));
-					// console.log(Ext.dsdata.storePersonal.getAt(indice).get('nit'));
-					//ModificarPersonal(indice);
+					// if(indice != 'e'){
+                    //     opp = 2;
+                    //     op_NS = 0;
+                    //     cod_up_NS_global = 1;
+                    //     Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
+                    // }
+                    // else{
+                    //     Ext.MessageBox.alert('Alerta de Mensaje.','Seleccione un Registro.');
+                    // }
+					console.log(Ext.dsdata.storePersonal.getAt(indice).get('codsistema'));
+					console.log(Ext.dsdata.storePersonal.getAt(indice).get('nit'));
+					ModificarPersonal(indice);
 
 				}
 			},
@@ -188,33 +188,33 @@ Ext.onReady(function () {
 				icon: '../img/Eliminar.png',
 				handler: function (t) {
 					if (indice != 'e') {
-						opp = 3;
-                        op_NS = 0;
-                        cod_up_NS_global = 1;
-                        Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
-						// Ext.MessageBox.show({
-						// 	title: 'Adbertencia',
-						// 	msg: 'Esta seguro que desea eliminar el registro seleccionado..?',
-						// 	buttons: Ext.MessageBox.YESNO,
-						// 	icon: Ext.MessageBox.WARNING,
-						// 	fn: function (btn) {
-						// 		if (btn == 'yes') {
-						// 			Ext.Ajax.request(
-						// 				{
-						// 					url: '../servicesAjax/DSBajaPersonalAJAX.php',
-						// 					params: { codigo: Ext.dsdata.storePersonal.getAt(indice).get('codigo') },
-						// 					method: 'POST',
-						// 					success: function (result, request) {
-						// 						Ext.MessageBox.alert('MSG', 'Registro Desactivado');
-						// 						Ext.dsdata.storePersonal.load({ params: { start: 0, limit: 100 } });
-						// 					},
-						// 					failure: function (result, request) {
-						// 						Ext.MessageBox.alert('ERROR', result.responseText);
-						// 					}
-						// 				});
-						// 		}
-						// 	}
-						// });
+						// opp = 3;
+                        // op_NS = 0;
+                        // cod_up_NS_global = 1;
+                        // Ext.MessageBox.passwordPrompt('Alerta de Seguridad.', `Introducir PIN de Acreditación:`, verificacionNivelPin_NS);
+						Ext.MessageBox.show({
+							title: 'Adbertencia',
+							msg: 'Esta seguro que desea eliminar el registro seleccionado..?',
+							buttons: Ext.MessageBox.YESNO,
+							icon: Ext.MessageBox.WARNING,
+							fn: function (btn) {
+								if (btn == 'yes') {
+									Ext.Ajax.request(
+										{
+											url: '../servicesAjax/DSBajaPersonalAJAX.php',
+											params: { codigo: Ext.dsdata.storePersonal.getAt(indice).get('codigo') },
+											method: 'POST',
+											success: function (result, request) {
+												Ext.MessageBox.alert('MSG', 'Registro Desactivado');
+												Ext.dsdata.storePersonal.load({ params: { start: 0, limit: 100 } });
+											},
+											failure: function (result, request) {
+												Ext.MessageBox.alert('ERROR', result.responseText);
+											}
+										});
+								}
+							}
+						});
 					} else { alert('Seleccione un registro por favor.....!'); }
 				}
 			}, '-', {

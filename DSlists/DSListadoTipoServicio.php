@@ -1,11 +1,12 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<title>Listado Tipo Servicio</title>		
 		
-	<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=H8u_08gZ0KjuF5-45-db7kBWatfx0f-PoLCdpz62Jkx1Zm7AF1-IQ-4dQkFsusRgHr6SwJO7iIRNKT2xSbb9cGI7Pjt9N2sCqdHdaWATLW3gm0Lp1X5SDI61lgByijKC" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93d3cuZXF1YW50YS1hdWRpdG9yZXMuY29tL1NPTE9FTF9UMjMvRFNsaXN0cy9EU0xpc3RhZG9UaXBvU2VydmljaW8ucGhw"/><div id="DSinicio" class="divcentro">
+	<!-- <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=H8u_08gZ0KjuF5-45-db7kBWatfx0f-PoLCdpz62Jkx1Zm7AF1-IQ-4dQkFsusRgHr6SwJO7iIRNKT2xSbb9cGI7Pjt9N2sCqdHdaWATLW3gm0Lp1X5SDI61lgByijKC" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93d3cuZXF1YW50YS1hdWRpdG9yZXMuY29tL1NPTE9FTF9UMjMvRFNsaXN0cy9EU0xpc3RhZG9UaXBvU2VydmljaW8ucGhw"/> -->
+	<div id="DSinicio" class="divcentro">
   	<div align="center"><img src="../img/al.gif"/><br/></div>  	
   </div>	
 	<link rel="stylesheet" type="text/css" href="../ext/resources/css/ext-all.css" />

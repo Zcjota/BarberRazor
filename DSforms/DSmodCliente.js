@@ -729,7 +729,7 @@ function IniComp_mc_peque() {
 	frm.clearInvalid();
 };
 function cargarCompCliente_peque(indice){
-	debugger;
+	//debugger;
 	txtcelular_mc.disable();
 	var cod_vc_mc = Ext.dsdata.storePropietario.getAt(indice).get('cod_vinculacion');
 	var posicion = storePropietario_mc_peque.findExact('codigop', cod_vc_mc);

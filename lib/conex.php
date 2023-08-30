@@ -1,5 +1,5 @@
 <?php 
-date_default_timezone_set('-04:00');
+//date_default_timezone_set('-04:00');
 
 function VerificaConBD()
 {
