@@ -32,8 +32,8 @@ de los clientes y la eficiencia operativa
 
 Este documento proporciona los pasos necesarios para instalar el proyecto de la barbería en tu entorno local utilizando XAMPP y Git. El proyecto está desarrollado en Ext JS 3.4 y HTML, con servicios AJAX para la comunicación.
 Requisitos previos
-1. Video guia : https://youtu.be/CCJM1zUBAYo
-2. Video Solucion de error pagina en blanco : https://www.youtube.com/watch?v=svLkuBeLXXg
+• Video guia : https://youtu.be/CCJM1zUBAYo
+• Video Solucion de error pagina en blanco : https://www.youtube.com/watch?v=svLkuBeLXXg
 Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
 •	XAMPP: para el servidor web y PHP.
 •	Git: para clonar el repositorio.
