@@ -1,5 +1,8 @@
-# BarberRazor
+<h1 align="center"> BarberRazor </h1>
+
 Proyecto de Barberia Razor
+
+![NEG2](https://github.com/Zcjota/BarberRazor/assets/129647105/ee5e045e-6639-4b14-aede-5719fd13382e)
 
 Nos complace presentar a La Barbería "Razor", un
 negocio local comprometido en brindar servicios
@@ -9,8 +12,22 @@ reconocemos que existen áreas de mejora en la gestión
 interna que pueden potenciar aún más la experiencia
 de los clientes y la eficiencia operativa
 
+<em> # Universidad Privada Domingo savio  </em>
+![upds_logo_300](https://github.com/Zcjota/BarberRazor/assets/129647105/a5969463-1abc-4a3b-ac53-de482b7233cb)
 
-*Proyecto de Barbería – Instalación para el uso Local*
+
+* Materia : Sistema de informacion III
+* Docente :	Zambrana Chacon Jaime
+* Estudiantes : Jaime Junior aguilar leaños
+                Ximena Justiniano Lujan
+                Jorge Daniel Moron Avila
+                Gustavo Soto Pecho
+* Turno : Noche
+* Fecha : 30/08/2023
+                
+                 
+<em> # Proyecto de Barbería – Instalación para el uso Local  </em>
+
 Este documento proporciona los pasos necesarios para instalar el proyecto de la barbería en tu entorno local utilizando XAMPP y Git. El proyecto está desarrollado en Ext JS 3.4 y HTML, con servicios AJAX para la comunicación.
 Requisitos previos
 1. Video guia : https://youtu.be/CCJM1zUBAYo
@@ -44,9 +61,8 @@ Notas adicionales
 •	Si experimentas problemas con los estilos o la funcionalidad, asegúrate de que estás usando un navegador compatible con HTML y Ext JS 3.4.
 ¡Esto debería ayudarte a instalar y ejecutar el proyecto de barbería localmente utilizando XAMPP y Git! Recuerda reemplazar las partes en mayúsculas (como nombre_de_la_carpeta_del_proyecto) con los valores reales correspondientes a tu proyecto.
 
+<em> # Proyecto de Barbería - Instalación en Hosting  </em>
 
-
-*Proyecto de Barbería - Instalación en Hosting*
 Este documento proporciona los pasos necesarios para instalar el proyecto de la barbería en un servidor de hosting. El proyecto está desarrollado en Ext JS 3.4 y HTML, con servicios AJAX para la comunicación.
 
 Requisitos previos
