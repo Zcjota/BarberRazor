@@ -20,10 +20,10 @@ de los clientes y la eficiencia operativa
 
 * Materia : Sistema de informacion III
 * Docente :	Zambrana Chacon Jaime
-* Estudiantes : Jaime Junior aguilar leaños
-                Ximena Justiniano Lujan
-                Jorge Daniel Moron Avila
-                Gustavo Soto Pecho
+* Estudiantes : * Jaime Junior aguilar leaños
+                * Ximena Justiniano Lujan
+                * Jorge Daniel Moron Avila
+                * Gustavo Soto Pecho
 * Turno : Noche
 * Fecha : 30/08/2023
                 
@@ -37,8 +37,9 @@ Requisitos previos
 Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
 •	XAMPP: para el servidor web y PHP.
 •	Git: para clonar el repositorio.
-Pasos de instalación
+• Este paso te servira cuando llegues a finalizacion de la instalacion del proyecto.
 
+<em> # Proyecto de Barbería – Pasos de instalación  </em>
 1. Clonar el repositorio
 Abre una terminal y navega hasta la carpeta htdocs de tu instalación de XAMPP:
 cd /ruta/a/tu/instalacion/xampp/htdocs 
@@ -72,6 +73,8 @@ Antes de comenzar, asegúrate de tener lo siguiente:
 •	Acceso a un servidor de hosting con soporte para PHP y bases de datos MySQL.
 •	Información de acceso al servidor (FTP, cPanel, etc.).
 •	Una copia del repositorio del proyecto.
+
+<em> # Proyecto de Barbería – Pasos de instalación  </em>
 
  Clonar el Repositorio en el Servidor
 1.	Accede a tu servidor de hosting a través de SSH o el método que el proveedor de hosting te ofrezca para acceder a la línea de comandos del servidor.
