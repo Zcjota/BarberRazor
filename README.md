@@ -76,9 +76,13 @@ Notas adicionales
 Este documento proporciona los pasos necesarios para instalar el proyecto de la barbería en un servidor de hosting. El proyecto está desarrollado en Ext JS 3.4 y HTML, con servicios AJAX para la comunicación.
 
 Requisitos previos
+
 Antes de comenzar, asegúrate de tener lo siguiente:
+
 •	Acceso a un servidor de hosting con soporte para PHP y bases de datos MySQL.
+
 •	Información de acceso al servidor (FTP, cPanel, etc.).
+
 •	Una copia del repositorio del proyecto.
 
 <em> # Proyecto de Barbería – Pasos de instalación  </em>
